@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         button_generate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                System.out.println("onClick");
                 message = editText1.getText().toString();
 
                 if (message.equals("") || type.equals(""))
